@@ -1,0 +1,44 @@
+body{
+    font-family: Averia Serif Libre;
+    color:#7E1518;
+
+
+
+}
+
+p{
+  color: #000000CC;
+  font-family: Averia Serif Libre;
+  font-size: 16px;
+  font-weight: 600;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Averia Serif Libre;
+}
+
+h2{
+    font-weight: 900 !important;
+}
+@media screen and (max-width: 768px) {
+  .f45{
+    font-size: 25px;
+    line-height: 0.8;
+  }
+
+  .lh{
+    line-height: 0.9 !important;
+  }
+
+  .h1080{
+    height: 300px;
+  }
+
+
+.navbar-nav.gap5 {
+  gap: 0px !important;
+}
+
+}
+

@@ -1,0 +1,16 @@
+.hero-text {
+    font-size: 95px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-text {
+      font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero-text {
+      font-size: 21px;
+    }
+  }
+  
