@@ -9,7 +9,7 @@ function Footer() {
             {/* Logo and About Section */}
             <div className="col-lg-3 mb-4">
               <h2 className="text-white">Logo</h2>
-              <p>
+              <p style={{color:"white"}}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perspiciatis 
                 consequatur impedit nihil voluptas libero aperiam? Voluptatum blanditiis nemo 
                 dignissimos aperiam vitae optio rem architecto iure! Perspiciatis maiores quasi ipsum.
