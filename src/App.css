@@ -23,19 +23,11 @@ h2{
 }
 @media screen and (max-width: 768px) {
   .f45{
-<<<<<<< HEAD
     font-size: 25px;
    
   }
 
  
-=======
-    font-size: 35px;
-   
-  }
-
-  
->>>>>>> 6840c3f4c49ade5919dbaa09e01c1d8c93accbba
 
   .h1080{
     height: 300px;
