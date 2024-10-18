@@ -23,13 +23,11 @@ h2{
 }
 @media screen and (max-width: 768px) {
   .f45{
-    font-size: 25px;
+    font-size: 35px;
    
   }
 
-  .lh{
-    line-height: 0.9 !important;
-  }
+  
 
   .h1080{
     height: 300px;
