@@ -3,6 +3,7 @@ import All1 from '../../assets/All1.png';
 import All2 from '../../assets/All2.png';
 import All3 from '../../assets/All3.png';
 import All4 from '../../assets/All4.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -152,6 +153,13 @@ function All() {
   return (
     <>
        <div className="container-fluid py-5">
+       <div className="container d-flex gap-3 justify-content-center mb-4">
+        <Link to="/collections/all" className="btn btn-primary">All</Link>
+        <Link to="/collections/suit-salwar" className="btn btn-primary">Suit Salwar</Link>
+        <Link to="/collections/salwar" className="btn btn-primary">Salwar</Link>
+        <Link to="/collections/gowns" className="btn btn-primary">Gowns</Link>
+        <Link to="/collections/bridal" className="btn btn-primary">Bridal</Link>
+      </div>
         <div className="container">
           <div className="row g-4 d-flex">
             {data.map((item, index) => (

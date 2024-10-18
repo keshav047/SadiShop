@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import { Link } from 'react-router-dom';
 // import SuitSalwar1 from '../../assets/'
 import Salwar1 from '../../assets/Salwar1.png';
 import Salwar2 from '../../assets/Salwar2.png';
@@ -103,6 +103,13 @@ function Salwar() {
   return (
     <>
       <div className="container-fluid py-5 ">
+      <div className="container d-flex gap-3 justify-content-center mb-4">
+        <Link to="/collections/all" className="btn btn-primary">All</Link>
+        <Link to="/collections/suit-salwar" className="btn btn-primary">Suit Salwar</Link>
+        <Link to="/collections/salwar" className="btn btn-primary">Salwar</Link>
+        <Link to="/collections/gowns" className="btn btn-primary">Gowns</Link>
+        <Link to="/collections/bridal" className="btn btn-primary">Bridal</Link>
+      </div>
         <div className="container">
           <div className="row g-4 d-flex">
             {data.map((item, index) => (
