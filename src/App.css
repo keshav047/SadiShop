@@ -27,7 +27,19 @@ h2{
    
   }
 
- 
+ .h40{
+  height: auto !important;
+  
+ }
+
+ .h60{
+  margin-top: 0px !important;
+ }
+
+ .h80{
+  height: 900px !important;
+
+ }
 
   .h1080{
     height: 300px;

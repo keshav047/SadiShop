@@ -14,6 +14,8 @@ import Salwar from './Pages/Collection/Salwar';
 import Gowns from './Pages/Collection/Gowns';
 import Bridal from './Pages/Collection/BridalSarees';
 
+import About from './Pages/About/About';
+
 function App() {
   return (
     <Router>
@@ -21,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
         <Route path="/collections" element={<Collection />} />
         <Route path="/collections/all" element={<All />} />
         <Route path="/collections/suit-salwar" element={<SuitSalwar />} />
